@@ -1,0 +1,350 @@
+body{
+	font-family: sans-serif, arial , verdana;
+}
+ 	* { margin:0;
+	padding: 0;
+	 }
+#active {
+	
+	background: #fff ;
+	opacity: .9;
+	color:#EDFEAD;
+	
+
+	}
+#nav1{
+	width: 100%;
+	height:70px;
+	line-height: 70px;
+	background: #70503b; 
+
+	/* #D95858 - light red , #BDCF88 - light green #D9F489  ligth light green  , EDFEAD - Lightest green , #70503b - brown , #6a513b dark brown */
+}
+#nav1 h1{
+float:left;
+font-size: 2.5em;
+margin-left: 15px;
+
+}
+
+#nav1 h1 a{
+	text-decoration: none;
+	color:#EDFEAD;
+}
+#nav1 ul {
+	float:right;
+}
+
+#nav1 ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+#nav1 ul li a{
+	text-decoration: none;
+	color: #EDFEAD;
+padding: 25px;
+font-weight : bold;
+
+}
+
+#nav1 ul li a:hover{
+	background:#EDFEAD ;
+	color: #70503b;
+	text-transform: uppercase ;
+	font:verdana;
+	padding :10px ;
+	border : 1px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.45ms;
+}
+
+#main-content{
+	width :100%;
+	height : 600px;
+	background: url("Images/5.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #EDFEAD;
+	line-height: 40px;
+	border-top : 2px solid #EDFEAD;
+	
+}
+
+#service{
+	 background: #70503b;
+	 width: 200px;
+	 height : 50px;
+	 line-height: 50px;
+	 margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+font-weight: 100;
+text-decoration: none;
+
+}
+
+#service:hover{
+	box-shadow: 1px 5px 2px 2px rgba(84,69,69,.53);
+	transition: all ease-in-out .45s;
+}
+#service a{color:#EDFEAD;
+	text-decoration: none;
+padding:10px;
+}
+#third {
+	width:100%;
+	height:400px;
+	background: #70503b;
+	border-top : 2px solid #EDFEAD;
+}
+#third1 {
+	width :400px;
+	margin :15px;
+	text-align: center;
+	height: 300px;
+	padding: 5px;
+	display: inline;
+	float: left;
+	color:#EDFEAD;
+}
+#third1 img{
+	width:350px;
+	height: 200px;
+	border : 2px solid #EDFEAD;
+}
+/*
+#footer{
+	float:right;
+	color:black;
+		font-weight: 200;
+	width : 100%;
+	height: 150px;
+	background: #70503b;
+	line-height: 150px;
+
+}
+*/
+
+#social ul{
+	float:left;
+		background:#70503b;
+	width:100%;
+	border-top : 2px solid #EDFEAD;
+}
+#social ul li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 30px;
+}
+ 
+#social ul li a{
+	text-decoration: none;
+	color :#EDFEAD ;	
+	padding: 10px;
+}
+
+
+#icon{
+
+	font-size:35px;
+}
+
+#icon:hover{
+background: #ffffff;
+
+}
+footer{
+	float:right;
+	padding : 10px;
+	color:#EDFEAD;
+}
+
+/* SERVICE PAGE 
+
+STYLE SHEET   */
+
+#child{
+	width : 100%;
+	height: 400px;
+	background:url("Images/1p.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+}
+#child h3{
+	color: #EDFEAD;
+	background: #70503b;
+	width:400px	;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 50px;
+	font-weight: lighter;
+	opacity: .9;
+
+}
+#child2 img{
+	width:100%-500px;
+	height:400px;
+	margin-left:10px;
+}
+
+#text{
+	background: #70503b;
+	color: #EDFEAD;
+	display: inline;
+	width: 52%;
+	padding : 30px 20px;
+	float:right;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/* CONTACT WEBPAGE 
+STYLE SHEET */
+
+#form {
+	width : 50%;
+	height: 470px;
+	background: #70503b;
+	color: #EDFEAD;
+	line-height: 35px;
+	float:left;
+	border:2px solid #EDFEAD;
+	border-radius: 14px;
+}
+form{
+	margin-left:100px;
+}
+
+#name{
+	width: 200px;
+	height : 30px;
+	padding: 6px;
+	border-radius: 5px;
+	border : 1px solid #ccc;
+}
+#comment{
+	width: 300px;
+	height: 150px;
+	border-radius: 5px;
+	padding: 7px;
+}
+#submit{
+	width : 100px;
+	background: #EDFEAD;
+	height: 50px;
+	color:  #70503b;
+	font-size: 18px;
+	
+}
+#address{
+	border-radius: 14px;
+	background: #70503b;
+	color: #EDFEAD;
+	display: inline;
+	width: 48%;
+	height:450px;
+		float:right;
+		border:2px solid #EDFEAD;
+	padding:10px;
+	 
+
+}
+.a{
+	background: #EDFEAD;
+	color:#000;
+	padding : 17px;
+	border-radius: 4px;
+
+}
+
+#about{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#about img{
+	width:200px;
+	height: 200px;
+	border-radius: 5px;
+	margin : 10px;
+	border:4px solid #70503b;
+}
+
+/* The div id 'social' is changed to 'error' when the footer is not sinking to the left....it is resolved by using the position property */
+
+#error ul{
+	float:left;
+		background:#70503b;
+	width:100%;
+	border-top : 2px solid #EDFEAD;
+	position: absolute;
+	left:0;
+}
+#error ul li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 30px;
+}
+ 
+#error ul li a{
+	text-decoration: none;
+	color :#EDFEAD ;	
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#main-content h1{
+
+margin-left: auto;
+margin-right: auto;
+	text-align: center;
+	border-radius: 5px;
+	width:670px;
+height: 60px;
+line-height: 60px;
+	background: #35424a;
+	color:#ffffff;
+	font-weight: lighter;
+}
+	
+}
+
+#main-content h1{
+	position: absolute;
+	top:20px;margin-left: 100px;
+	text-align: center;
+		background: #70503b;
+		margin:20 110px 0 110px;;
+		height : 40px;
+		line-height: 15px;
+	opacity: .8;
+}
+#main-content p{
+	letter-spacing: .5px;
+		text-align: center;
+		background: #70503b;
+		margin:0 10px 0 10px;
+		height : 40px;
+		line-height: 15px;
+	opacity: .8;
+}   */
